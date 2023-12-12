@@ -1,12 +1,11 @@
 {
-  "name": "07-resteweb",
+  "name": "restweb-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "tsnd --respawn --clear src/index.ts",
-    "build": "rimraf ./dist && tsc",
-    "start": "npm run build && node dist/index.js"
+    "build": "rimraf ./dist && tsc"
   },
   "keywords": [],
   "author": "",
