@@ -1,0 +1,20 @@
+meta {
+  name: update todo
+  type: http
+  seq: 4
+}
+
+put {
+  url: {{url}}/api/todos/1
+  body: formUrlEncoded
+  auth: none
+}
+
+body:json {
+  {}
+}
+
+body:form-urlencoded {
+  text: Buy%20hot%20chocolate
+  completedAt: 2020-10-10
+}

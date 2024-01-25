@@ -1,0 +1,19 @@
+meta {
+  name: create todo
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{url}}/api/todos
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "text": "buy videogames",
+    "hello": "world",
+    "id": 123456
+  }
+}
